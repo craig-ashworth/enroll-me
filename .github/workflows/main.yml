@@ -29,4 +29,3 @@ jobs:
       - name: Run a multi-line script
         run: |
           echo $('%Y-%m-%dT%H:%M:%S')
-          echo ${gitsha:6}`date '+%s'`
